@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing Demo</title>
+    <link rel="stylesheet" href="./style.CSS">
+</head>
+<body>
+    <h1>Demostración de Box Sizing</h1>
+    <div class="container">
+        <div>
+            <h2>Content Box</h2>
+            <div class="box content-box">
+                Este es un content-box
+                <div class="Medidas">
+                    width: 200px <br/>
+                    padding: 20px <br/>
+                    border: 5px <br/>
+                    <span class="resalto">
+                        Ancho total: 250
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <h2>Bordered Box</h2>
+            <div class="box border-box">
+                Este es un border-box
+                <div class="Medidas">
+                    width: 200px <br/>
+                    padding: 20px <br/>
+                    border: 5px <br/>
+                    <span class="resalto">
+                        Ancho total: 200
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2>Explicación</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: #f0f0f0;
+}
+
+.content-box{
+    box-sizing: content-box;
+    background-color: #cafff8;
+}
+
+
+.border-box{
+    box-sizing: border-box;
+    background-color: #d0ffd0 ;
+}
+
+.Medidas {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.resalto {
+    background-color: #ffe8cd;
+    padding: 2px 5px;
+}
+
